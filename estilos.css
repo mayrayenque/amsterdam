@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    padding: 0 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+nav .datos img {
+    width: 140px;
+    height: 160px;
+}
+
+nav .detalle h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 0;
+
+}
+
+nav .detalle button {
+    background-color: #F3C300;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: underline;
+    padding: 10px 20px;
+}
+
+nav .lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: row;
+}
+
+.informacion {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion .visitas {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.lista {
+    margin-top: 20px;
+}
+
+.lista img {
+    width: 213px;
+    height: 95px;
+}
+
+.lista ul {
+    list-style: none;
+}
+
+.lista ul li {
+    display: inline-block;
+    margin: 23px;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.opciones {
+    display: flex;
+    align-self: center;
+}
+
+.opciones i {
+    font-size: 30px;
+}
+
+.opciones img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.informacion h3 {
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.informacion h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    line-height: 60px;
+}
+
+.informacion p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #717074;
+    width: 300px;
+    line-height: 25px;
+}
+
+.informacion button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.visitas {
+    display: flex;
+    margin-top: 22px;
+}
+
+.visitas p {
+    width: 140px;
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.visitas .canal h1,
+.visitas .vista h1 {
+    font-size: 56px;
+    margin-top: 5px;
+    padding: 0;
+    margin-bottom: -5px;
+}
+
+.visitas .local h1 {
+    color: red;
+    font-size: 56px;
+    margin-top: 5px;
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+.figuras .figura1 {
+    position: absolute;
+    top: 15;
+    right: 100px;
+    width: 1000px;
+    z-index: -1;
+}
+
+.figuras .figura2 {
+    position: relative;
+    bottom: -80px;
+    left: 100px;
+    width: 400px;
+}
+
+.figuras .figura3 {
+    position: absolute;
+    bottom: -39px;
+    right: 240px;
+    width: 850px;
+}
